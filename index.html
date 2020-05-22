@@ -26,8 +26,127 @@
       </div>
     </div>
     
-    
     <div class="container">
+      <!-- Start Pizza -->
+      <div class="set1"> 
+        <button type="button" class="btn btn-success" id="pizzaStart">Create New Pizza</button>
+      </div>
+      <!-- Pizza Base (size sauce cheese) -->
+      <div class="set2">
+        <form id="pizzaBase">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Size</h4>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size" value="1" checked>
+                  Small
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size" value="2">
+                  Medium
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="size" value="3">
+                  Large
+                </label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h4>Sauce</h4>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="sauce" value="0">
+                  None
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="sauce" value="1">
+                  Light
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="sauce" value="2" checked>
+                  Normal
+                </label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h4>Cheese</h4>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="cheese" value="0">
+                  None
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="cheese" value="1">
+                  Light
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="cheese" value="2" checked>
+                  Normal
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="cheese" value="3">
+                  Extra
+                </label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success">Toppings</button>
+        </form>
+      </div>
+      <!-- Pizza Toppings (pineapple peperoni mushroom sausage bellpepper anchovies) -->
+      <div class="set3">
+        <form id="pizzaToppings">
+          <div class="row">
+            <div class="col-md-2">
+              <h4>Pineapple</h4>
+              <button type="button" class="btn btn-success" id="pineappleAdd">ADD</button>
+              <button type="button" class="btn btn-danger hidden" id="pineappleRemove">REMOVE</button>
+            </div>
+            <div class="col-md-2">
+              <h4>Peperoni</h4>
+              <button type="button" class="btn btn-success" id="peperoniAdd">ADD</button>
+              <button type="button" class="btn btn-danger hidden" id="peperoniRemove">REMOVE</button>
+            </div>
+            <div class="col-md-2">
+              <h4>Mushroom</h4>
+              <button type="button" class="btn btn-success" id="mushroomAdd">ADD</button>
+              <button type="button" class="btn btn-danger hidden" id="mushroomRemove">REMOVE</button>
+            </div>
+            <div class="col-md-2">
+              <h4>Sausage</h4>
+              <button type="button" class="btn btn-success" id="sausageAdd">ADD</button>
+              <button type="button" class="btn btn-danger hidden" id="sausageRemove">REMOVE</button>
+            </div>
+            <div class="col-md-2">
+              <h4>Bellpepper</h4>
+              <button type="button" class="btn btn-success" id="bellpepperAdd">ADD</button>
+              <button type="button" class="btn btn-danger hidden" id="bellpepperRemove">REMOVE</button>
+            </div>
+            <div class="col-md-2">
+              <h4>Anchovies</h4>
+              <button type="button" class="btn btn-success" id="anchoviesAdd">ADD</button>
+              <button type="button" class="btn btn-danger hidden" id="anchoviesRemove">REMOVE</button>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success">Finish Pizza</button>
+        </form>
+      </div>
+
 
     </div>
 
