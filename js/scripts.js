@@ -68,7 +68,6 @@ $(document).ready(function(){
     pizzaList[pizzaCount] = pizza;
     $(".set1").hide();
     $(".set2").show();
-    console.log(pizzaList);
   });
 
   // set2 buttons
@@ -83,7 +82,6 @@ $(document).ready(function(){
     $(".price").text(pizzaList[pizzaCount].priceCheck());
     $(".set2").hide();
     $(".set3").show();
-    console.log(pizzaList);
   });
 
   // set3 buttons
@@ -176,6 +174,5 @@ $(document).ready(function(){
     pizzaCount += 1
     $(".set3").hide();
     $(".set4").show();
-    console.log(pizzaList);
   });
 });
