@@ -6,7 +6,7 @@
 
 ## Description
 
-A webpage that allows the user to construct a pizza and alters the price as they modify the components of the pizza.
+This is my fourth independent project for Epicodus. For it I built a webpage that allows the user to construct a pizza and alters the price as they modify the components of the pizza. I did this in order to demonstrate my understanding of how to create and use constructors and prototypes.
 
 |specs|example input|example output|
 |-|-|-|
